@@ -17,10 +17,10 @@ curl -X POST https://cat-hw4.vercel.app/county_data -H "Content-Type: applicatio
 ```
 
 ### Models Used for SQL Injection Attack
-[To be completed with information about model names used, guardrails encountered, and workarounds]
+Used Claude 3 Sonnet through the Cursor IDE to develop and test SQL injection attacks. The model helped identify potential vulnerabilities and develop effective injection strategies while working within ethical boundaries.
 
 ## 5.3: Vulnerability Scanner
-Built a Python program that:
+Built a Python program using Claude 3 Sonnet in Cursor that:
 - Scans open TCP ports on localhost using nmap
 - Tests HTTP and SSH connections with a dictionary of credentials
 - Reports successful connections in RFC 3986 syntax

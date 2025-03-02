@@ -1,1 +1,17 @@
-# Prompts used for SQL Injection Attack 
+# Prompts used for SQL Injection Attack with Claude 3 Sonnet in Cursor
+
+1. "Help me create a SQL injection attack for this endpoint: https://cat-hw4.vercel.app/county_data. It accepts POST requests with a JSON body containing zip and measure_name fields. Here's my test.json:
+{
+    'zip': '84601',
+    'measure_name': 'Adult obesity'
+}"
+
+2. "The endpoint seems vulnerable to SQL injection through the measure_name parameter. Can you help me craft a UNION-based injection that would reveal table information?"
+
+3. "I got an error about column count mismatch. Can you help me modify the injection to match the correct number of columns?"
+
+4. "The injection worked! Now help me extract specific data about Utah County's health measures."
+
+5. "Let's create the final attack.json payload that extracts all health measures for Utah County."
+
+Note: All interactions were conducted through the Cursor IDE using Claude 3 Sonnet, with careful attention to ethical boundaries and educational purposes. 
